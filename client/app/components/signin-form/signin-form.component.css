@@ -46,11 +46,13 @@ img {
 
 
 }
-.label {
+.forgot-signin > label {
   color: #2694c1;
   float: left;
-  font-weight: 500;
+  font-weight: 300;
   margin-top: 20px;
+  font-size: 13px;
+
 }
 .btn {
   color: white;

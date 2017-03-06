@@ -1,7 +1,10 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { FormsModule} from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { JsonpModule } from '@angular/http';
+
 
 import { AppComponent }  from './app.component';
 import { NavigationComponent }  from './components/navigation/navigation.component';
@@ -21,4 +24,5 @@ import { SignInFormComponent } from './components/signin-form/signin-form.compon
 
   bootstrap:    [ AppComponent ]
 })
+
 export class AppModule { }
