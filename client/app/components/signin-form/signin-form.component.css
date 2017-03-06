@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  margin-top: 10em;
+;
+}
+
+.panel-heading {
+  height: 8em;
+}
+.vend-svg {
+  height: 3em;
+}
+.vend-svg > p {
+  font-weight: 200;
+  font-size: 2.5em;
+  margin-left: 180px;
+  margin-top: -40px;
+  color: black;
+}
+
+.panel-body {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+.panel-body > p {
+  margin-right: 20px;
+}
+
+.p-panelbody {
+  color: black;
+  margin-right: 40px;
+}
+
+.your-store {
+  margin-left: 220px;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 50px;
+  margin-left:40px;
+  height: 57px;
+
+
+}
+
+.btn {
+  color: white;
+  border-radius: 5px;
+  background-color: #3da446;
+  font-size: 10px;
+  font-weight: 200;
+  width: 15em;
+
+}
