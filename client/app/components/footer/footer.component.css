@@ -1,6 +1,7 @@
 .footer {
     background-color: #2E2E2E;
     padding: 70px 0;
+    margin-top: 0;
     color: #fff;
 }
 
@@ -38,7 +39,7 @@
     border: 0 none;
     border-radius: 0;
     color: #c1c1c1;
-    padding: 13px 20px;
+    padding: 5px 15px;
     position: absolute;
     overflow: hidden;
     right: 0;
@@ -101,10 +102,10 @@
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #3da446;
 }
 
 .footer-content > p {
     color: #ababab;
-    font-size: 12px;
+    font-size: 10px;
 }
