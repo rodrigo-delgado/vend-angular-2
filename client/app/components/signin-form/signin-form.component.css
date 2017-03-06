@@ -1,9 +1,7 @@
-.container {
-  width: 100%;
-  margin-top: 10em;
-;
-}
 
+.panel {
+    margin-top: 10em;
+}
 .panel-heading {
   height: 8em;
 }
@@ -43,9 +41,9 @@ img {
   margin-top: 50px;
   margin-left:40px;
   height: 57px;
-
-
 }
+
+
 .forgot-signin > label {
   color: #2694c1;
   float: left;

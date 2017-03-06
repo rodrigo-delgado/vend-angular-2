@@ -15,9 +15,10 @@ export class CarouselComponent {
   public images = IMAGES;
 }
 var IMAGES: Image[] = [
-	{ "title": "We are covered", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/covered.jpg" },
-	{ "title": "Generation Gap", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/generation.jpg" },
-	{ "title": "Potter Me", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/potter.jpg" },
-	{ "title": "Pre-School Kids", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/preschool.jpg" },
-	{ "title": "Young Peter Cech", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/soccer.jpg" }
+	{ "title": "Attract new customers & increase revenue with gift cards.", "url": "img/cash-management.jpg" },
+	{ "title": "Track all cash movements from cash float to register closure.", "url": "img/gift-cards.jpg" },
+	{ "title": "The beautifully fast web-based checkout experience. Try it now!", "url": "img/register.jpg" },
+	{ "title": "Retail ebooks, guides, live events, webinars and training.", "url": "img/vend-u.jpg" },
+  { "title": "Attract new customers & increase revenue with gift cards.", "url": "img/cash-management.jpg" }
+
 ];

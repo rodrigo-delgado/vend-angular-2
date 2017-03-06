@@ -5,7 +5,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var core_1 = require("@angular/core");
 var CarouselComponent = (function () {
     function CarouselComponent() {
@@ -19,14 +21,15 @@ CarouselComponent = __decorate([
         selector: 'carousel',
         templateUrl: 'carousel.component.html',
         styleUrls: ['carousel.component.css']
-    })
+    }),
+    __metadata("design:paramtypes", [])
 ], CarouselComponent);
 exports.CarouselComponent = CarouselComponent;
 var IMAGES = [
-    { "title": "We are covered", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/covered.jpg" },
-    { "title": "Generation Gap", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/generation.jpg" },
-    { "title": "Potter Me", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/potter.jpg" },
-    { "title": "Pre-School Kids", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/preschool.jpg" },
-    { "title": "Young Peter Cech", "url": "https://raw.githubusercontent.com/christiannwamba/angular2-carousel-component/master/images/soccer.jpg" }
+    { "title": "Attract new customers & increase revenue with gift cards.", "url": "img/cash-management.jpg" },
+    { "title": "Track all cash movements from cash float to register closure.", "url": "img/gift-cards.jpg" },
+    { "title": "The beautifully fast web-based checkout experience. Try it now!", "url": "img/register.jpg" },
+    { "title": "Retail ebooks, guides, live events, webinars and training.", "url": "img/vend-u.jpg" },
+    { "title": "Attract new customers & increase revenue with gift cards.", "url": "img/cash-management.jpg" }
 ];
 //# sourceMappingURL=carousel.component.js.map
