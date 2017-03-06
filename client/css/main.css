@@ -13,25 +13,10 @@ body {
 
 }
 
-figure, p, address {
-    margin: 0;
-}
-
 p {
     line-height: 25px;
 }
 
-iframe {
-    border: 0;
-}
-
-a {
-    -webkit-transition: all 0.3s ease-out 0s;
-       -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-         -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
-}
 
 a, a:hover, a:focus, .btn:focus {
     text-decoration: none;
@@ -46,86 +31,19 @@ h1, h2, h3, h4, h5, h6,
 
 
 
-
-.sec-title {
-    margin-bottom: 50px;
-}
-
-.sec-title.white {
-    color: #fff;
-}
-
-.sec-title h2 {
-    font-size: 36px;
-    margin: 0 0 30px;
-    padding-bottom: 30px;
-    position: relative;
-    text-transform: uppercase;
-}
-
-.sec-title.white h2 {
-    color: #fff;
-}
-
-.sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
-    content: "";
-    display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
-    width: 115px;
-}
-
-.sec-title.white h2:after {
-    border-bottom: 1px solid #fff;
-}
-
-.parallax {
-    background-attachment: fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/**
-/*	Preloader
-/* ==========================================*/
-
-#preloader {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
-
-
-
-/*============================================================
-	Responsive Styles
- ============================================================*/
-
 /*============================================================
 	For Small Desktop
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
-/*about*/
-    #about .welcome-block img {
-        margin-bottom: 30px;
+    .carousel {
+        margin-left: 60px;
+        margin-top: 0;
+        width: auto;
+        height: auto;
     }
 
-/* portfolio */
-    figcaption.mask {
-        bottom: -151px;
-    }
-
-    .testimonial-item > div:after {
-        bottom: -40px;
-    }
 }
 
 
@@ -135,29 +53,9 @@ h1, h2, h3, h4, h5, h6,
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-/* home slider  */
-    .caption-content h2 {
-        font-size: 40px;
+    .carousel {
+        margin-left: 30px;
     }
-
-    .caption-content p {
-        font-size: 25px;
-    }
-
-    .caption-content strong {
-        font-size: 45px;
-    }
-
-/* about */
-    .recent-works {
-        margin-bottom: 50px;
-    }
-
-    .service-item {
-        margin-bottom: 50px;
-    }
-
-
 }
 
 
@@ -171,18 +69,6 @@ h1, h2, h3, h4, h5, h6,
         font-size: 14px;
     }
 
-    .parallax {
-        background-position: centet tip !important;
-    }
-
-    .sec-title h2 {
-        font-size: 25px;
-    }
-
-    .sec-title h2:after {
-        left: 30%;
-    }
-
 /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #525252;
@@ -190,26 +76,16 @@ h1, h2, h3, h4, h5, h6,
 
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
-        background-color: transparent;
+        background-color: #525252;
     }
 
 /* slider */
-    .caption-content h2 {
-        font-size: 18px;
+    .slides li {
+        font-size: 14px;
     }
 
-    .caption-content > span {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-
-    .caption-content p {
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
-
-    .caption-content strong {
-        font-size: 22px;
+    .carousel {
+        margin-left: 15px;
     }
 
 
@@ -230,24 +106,9 @@ h1, h2, h3, h4, h5, h6,
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-    .sec-title h2:after {
-        left: 38%;
+    .slides li {
+        font-size: 14px;
     }
-
-/* home slider */
-    .caption-content h2 {
-        font-size: 35px;
-    }
-
-    .caption-content p {
-        font-size: 25px;
-    }
-
-    .caption-content strong {
-        font-size: 35px;
-    }
-
-
 
 /* footer */
     .footer-content {

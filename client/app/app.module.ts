@@ -4,6 +4,7 @@ import { HttpModule } from '@angular/http';
 import { FormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JsonpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppComponent }  from './app.component';
@@ -14,7 +15,10 @@ import { SignInFormComponent } from './components/signin-form/signin-form.compon
 
 
 @NgModule({
-  imports:      [ BrowserModule, HttpModule, FormsModule ],
+  imports:      [ BrowserModule,
+                  HttpModule,
+                  FormsModule,
+                  ReactiveFormsModule],
   declarations: [ AppComponent,
                   NavigationComponent,
                   FooterComponent,

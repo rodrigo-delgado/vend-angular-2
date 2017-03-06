@@ -22,6 +22,9 @@ h1.sign-in {
 .navbar-inverse .navbar-nav > li > a {
     color: #ececec;
     font-size: .9em;
+    
+
+
 
 }
 
@@ -29,3 +32,10 @@ h1.sign-in {
     height: 1em;
     margin: 1.2em;
 }
+
+/*.navbar-collapse {
+
+  background-color: #525252;
+  opacity: 90;
+
+}*/
