@@ -9,6 +9,4 @@ import { SignInFormComponent } from '../signin-form/signin-form.component';
   styleUrls: ['body-container.component.css']
 })
 
-export class BodyContainerComponent {
-
-}
+export class BodyContainerComponent { }
