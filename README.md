@@ -13,9 +13,9 @@ npm install
 
 ```shell
 npm start
-```
-cd client and run:
-````shell
+
+cd client folder, npm install inside client folder and run:
+
 npm run tsc
 ````
 Live reloading app at `http://localhost:3000/`
