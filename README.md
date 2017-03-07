@@ -20,15 +20,22 @@ Clone this repo into new project folder (e.g., `my-proj`):
 ```shell
 git clone https://github.com/rodrigo-delgado/vend-angular-2.git  my-proj
 cd my-proj
+
+npm install
+
+cd client
+
 npm install
 ```
 
 ## Start development server on local host:
 
 ```shell
-npm start
+You must have 2 terminal windows open,
 
-cd client folder, npm install inside client folder and run:
+npm start on my-pro folder
+
+cd client and run:
 
 npm run tsc
 ````
