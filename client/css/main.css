@@ -46,6 +46,15 @@ h1, h2, h3, h4, h5, h6,
         width: auto;
         height: auto;
     }
+    .navbar-inverse .navbar-toggle {
+        border-color: #525252;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #525252;
+    }
+
 
 }
 
@@ -57,6 +66,15 @@ h1, h2, h3, h4, h5, h6,
     .carousel {
         margin-left: 30px;
     }
+    .navbar-inverse .navbar-toggle {
+        border-color: #525252;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #525252;
+    }
+
 }
 
 /*============================================================
@@ -112,7 +130,7 @@ h1, h2, h3, h4, h5, h6,
  flex-direction: column-reverse;
     }
 
-    span {
+     span.store {
       position: absolute;
       top: -9999px;
       left: -9999px;
