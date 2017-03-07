@@ -16,6 +16,7 @@ var navigation_component_1 = require("./components/navigation/navigation.compone
 var footer_component_1 = require("./components/footer/footer.component");
 var carousel_component_1 = require("./components/carousel/carousel.component");
 var signin_form_component_1 = require("./components/signin-form/signin-form.component");
+var body_container_component_1 = require("./components/body-container/body-container.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -31,7 +32,9 @@ AppModule = __decorate([
             navigation_component_1.NavigationComponent,
             footer_component_1.FooterComponent,
             signin_form_component_1.SignInFormComponent,
-            carousel_component_1.CarouselComponent],
+            carousel_component_1.CarouselComponent,
+            body_container_component_1.BodyContainerComponent
+        ],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

@@ -1,26 +1,33 @@
 
 .panel {
-    margin-top: 10em;
 
+    max-height: 60vh;
+    min-height: 350px;
 }
 .panel-heading {
   height: 8em;
+  padding: 0;
+  margin: 0;
 }
 .vend-svg {
   height: 3em;
 }
-.vend-svg > p {
+.panel-heading > p {
   font-weight: 200;
   font-size: 2.5em;
   margin-left: 180px;
   margin-top: -40px;
   color: black;
 }
-
+.store {
+  color: grey;
+  float: right;
+}
 .panel-body {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 50px;
+  padding: 0;
 }
 
 .panel-body > p {

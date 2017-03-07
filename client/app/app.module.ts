@@ -12,7 +12,7 @@ import { NavigationComponent }  from './components/navigation/navigation.compone
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent} from './components/carousel/carousel.component';
 import { SignInFormComponent } from './components/signin-form/signin-form.component';
-
+import { BodyContainerComponent } from './components/body-container/body-container.component';
 
 @NgModule({
   imports:      [ BrowserModule,
@@ -23,7 +23,9 @@ import { SignInFormComponent } from './components/signin-form/signin-form.compon
                   NavigationComponent,
                   FooterComponent,
                   SignInFormComponent,
-                  CarouselComponent],
+                  CarouselComponent,
+                  BodyContainerComponent
+                ],
 
 
   bootstrap:    [ AppComponent ]

@@ -5,20 +5,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var core_1 = require("@angular/core");
-var SignInFormComponent = (function () {
-    function SignInFormComponent() {
+var BodyContainerComponent = (function () {
+    function BodyContainerComponent() {
     }
-    return SignInFormComponent;
+    return BodyContainerComponent;
 }());
-SignInFormComponent = __decorate([
+BodyContainerComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'signin-form',
-        templateUrl: 'signin-form.component.html',
-        styleUrls: ['signin-form.component.css']
-    })
-], SignInFormComponent);
-exports.SignInFormComponent = SignInFormComponent;
-//# sourceMappingURL=signin-form.component.js.map
+        selector: 'body-container',
+        templateUrl: 'body-container.component.html',
+        styleUrls: ['body-container.component.css']
+    }),
+    __metadata("design:paramtypes", [])
+], BodyContainerComponent);
+exports.BodyContainerComponent = BodyContainerComponent;
+//# sourceMappingURL=body-container.component.js.map
