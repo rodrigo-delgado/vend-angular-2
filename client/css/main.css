@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5, h6,
     .navbar-inverse .navbar-toggle:focus {
         background-color: #525252;
     }
+    ul#nav {
+      background-color: white;
+    }
 
 }
 
