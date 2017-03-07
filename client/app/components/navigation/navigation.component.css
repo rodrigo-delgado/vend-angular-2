@@ -10,6 +10,9 @@ h1.navbar-brand {
     color: #ececec;
     margin-top: -.5em;
 }
+.navbar-brand > a {
+  color: #ececec;
+}
 
 h1.sign-in {
     font-size: .9em;
@@ -22,7 +25,7 @@ h1.sign-in {
 .navbar-inverse .navbar-nav > li > a {
     color: #ececec;
     font-size: .9em;
-    
+
 
 
 

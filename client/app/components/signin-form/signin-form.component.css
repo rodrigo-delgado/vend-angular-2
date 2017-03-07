@@ -3,6 +3,7 @@
 
     max-height: 60vh;
     min-height: 350px;
+    border-radius: 0 3px 3px 0;
 }
 .panel-heading {
   height: 8em;
