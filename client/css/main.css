@@ -7,19 +7,19 @@ body {
   color: #818181;
   padding: 0;
   margin: 0;
-
 }
 
-.col-md-7 {
+.sign-in-container {
   padding: 0;
 }
-.col-md-4 {
+
+.carousel-container {
   padding: 0;
 }
+
 p {
     line-height: 25px;
 }
-
 
 a, a:hover, a:focus, .btn:focus {
     text-decoration: none;
@@ -54,8 +54,6 @@ h1, h2, h3, h4, h5, h6,
     .navbar-inverse .navbar-toggle:focus {
         background-color: #525252;
     }
-
-
 }
 
 /*============================================================
@@ -74,7 +72,6 @@ h1, h2, h3, h4, h5, h6,
     .navbar-inverse .navbar-toggle:focus {
         background-color: #525252;
     }
-
 }
 
 /*============================================================
@@ -125,10 +122,10 @@ h1, h2, h3, h4, h5, h6,
       margin: 0 7px;
     }
 
-    .carousel {
+    /*.carousel {
       display:flex;
- flex-direction: column-reverse;
-    }
+      flex-direction: column-reverse;
+    }*/
 
      span.store {
       position: absolute;
